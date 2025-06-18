@@ -13,7 +13,8 @@ def home():
     
     Dalam proyek ini, saya sebagai seorang data scientist bertugas untuk membuat model machine learning yang dapat memprediksi apakah seorang karyawan berisiko untuk resign berdasarkan data historis yang ada di perusahaan. Model ini akan digunakan untuk mengidentifikasi karyawan yang berisiko resign dan membantu perusahaan untuk meningkatkan retensi mereka.
     ''')
-    
+    st.markdown("---")
+
     st.markdown("## Rumusan Masalah")
     st.markdown('''           
     Dalam waktu tiga bulan ini, saya harus mengembangkan sebuah model machine learning untuk memprediksi potensi resign karyawan berdasarkan data historis yang ada. Fokus utama adalah pada nilai recall yang tinggi untuk memastikan akurasi dalam memprediksi karyawan yang berisiko resign, dengan tingkat kepercayaan 99%. Hal ini sangat penting karena dalam konteks dunia kerja, akurasi tinggi sangat dibutuhkan agar perusahaan bisa mengambil langkah yang tepat.
