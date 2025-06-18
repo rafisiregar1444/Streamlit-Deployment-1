@@ -33,40 +33,33 @@ def home():
     st.markdown("## Data Overview", unsafe_allow_html=True)
 
     st.markdown("""
-    <table>
-        <thead>
-            <tr>
-                <th>Kolom</th>
-                <th>Penjelasan</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>Age</td><td>Usia karyawan dalam tahun.</td></tr>
-            <tr><td>Gender</td><td>Jenis kelamin karyawan: <code>Male</code> (Laki-laki), <code>Female</code> (Perempuan).</td></tr>
-            <tr><td>Years at Company</td><td>Jumlah tahun yang telah dihabiskan karyawan di perusahaan.</td></tr>
-            <tr><td>Monthly Income</td><td>Pendapatan bulanan karyawan dalam dolar.</td></tr>
-            <tr><td>Job Role</td><td>Peran atau jabatan yang dijalani karyawan dalam perusahaan.</td></tr>
-            <tr><td>Work-Life Balance</td><td>Penilaian terhadap keseimbangan kerja dan kehidupan pribadi karyawan.</td></tr>
-            <tr><td>Job Satisfaction</td><td>Tingkat kepuasan karyawan terhadap pekerjaan mereka.</td></tr>
-            <tr><td>Performance Rating</td><td>Penilaian kinerja karyawan oleh perusahaan.</td></tr>
-            <tr><td>Overtime</td><td>Status apakah karyawan bekerja lembur: <code>Yes</code>/<code>No</code>.</td></tr>
-            <tr><td>Number of Promotions</td><td>Jumlah promosi yang telah diterima oleh karyawan.</td></tr>
-            <tr><td>Distance from Home</td><td>Jarak tempat tinggal karyawan dengan tempat kerja dalam mil.</td></tr>
-            <tr><td>Education Level</td><td>Tingkat pendidikan terakhir karyawan.</td></tr>
-            <tr><td>Marital Status</td><td>Status pernikahan karyawan: <code>Married</code>, <code>Single</code>, <code>Divorced</code>.</td></tr>
-            <tr><td>Number of Dependents</td><td>Jumlah tanggungan yang dimiliki karyawan.</td></tr>
-            <tr><td>Job Level</td><td>Tingkatan jabatan karyawan di perusahaan: <code>Mid</code>, <code>Entry</code>, <code>Senior</code>.</td></tr>
-            <tr><td>Company Size</td><td>Ukuran perusahaan: <code>Large</code>, <code>Medium</code>, <code>Small</code>.</td></tr>
-            <tr><td>Remote Work</td><td>Apakah karyawan bekerja dari jarak jauh: <code>Yes</code>/<code>No</code>.</td></tr>
-            <tr><td>Leadership Opportunities</td><td>Kesempatan untuk memimpin dalam perusahaan: <code>Yes</code>/<code>No</code>.</td></tr>
-            <tr><td>Innovation Opportunities</td><td>Kesempatan untuk berinovasi dalam perusahaan: <code>Yes</code>/<code>No</code>.</td></tr>
-            <tr><td>Company Reputation</td><td>Reputasi perusahaan di mata karyawan: <code>Excellent</code>, <code>Good</code>, <code>Fair</code>, <code>Poor</code>.</td></tr>
-            <tr><td>Employee Recognition</td><td>Penghargaan yang diberikan kepada karyawan atas pencapaian mereka: <code>Very High</code>, <code>High</code>, <code>Medium</code>, <code>Low</code>.</td></tr>
-            <tr><td>Attrition</td><td>Status apakah karyawan tetap bertahan atau mengundurkan diri: <code>Yes</code>/<code>No</code>.</td></tr>
-        </tbody>
-    </table>
-""", unsafe_allow_html=True)
+        ### Data Overview
 
+        | **Kolom**                | **Penjelasan**                                                                                         |
+        |--------------------------|--------------------------------------------------------------------------------------------------------|
+        | **Age**                  | Usia karyawan dalam tahun.                                                                              |
+        | **Gender**               | Jenis kelamin karyawan: `Male` (Laki-laki), `Female` (Perempuan).                                       |
+        | **Years at Company**     | Jumlah tahun yang telah dihabiskan karyawan di perusahaan.                                              |
+        | **Monthly Income**       | Pendapatan bulanan karyawan dalam dolar.                                                               |
+        | **Job Role**             | Peran atau jabatan yang dijalani karyawan dalam perusahaan.                                            |
+        | **Work-Life Balance**    | Penilaian terhadap keseimbangan kerja dan kehidupan pribadi karyawan.                                   |
+        | **Job Satisfaction**     | Tingkat kepuasan karyawan terhadap pekerjaan mereka.                                                    |
+        | **Performance Rating**   | Penilaian kinerja karyawan oleh perusahaan.                                                            |
+        | **Overtime**             | Status apakah karyawan bekerja lembur: `Yes`/`No`.                                                     |
+        | **Number of Promotions** | Jumlah promosi yang telah diterima oleh karyawan.                                                      |
+        | **Distance from Home**   | Jarak tempat tinggal karyawan dengan tempat kerja dalam mil.                                           |
+        | **Education Level**      | Tingkat pendidikan terakhir karyawan.                                                                  |
+        | **Marital Status**       | Status pernikahan karyawan: `Married`, `Single`, `Divorced`.                                           |
+        | **Number of Dependents** | Jumlah tanggungan yang dimiliki karyawan.                                                              |
+        | **Job Level**            | Tingkatan jabatan karyawan di perusahaan: `Mid`, `Entry`, `Senior`.                                    |
+        | **Company Size**         | Ukuran perusahaan: `Large`, `Medium`, `Small`.                                                         |
+        | **Remote Work**          | Apakah karyawan bekerja dari jarak jauh: `Yes`/`No`.                                                   |
+        | **Leadership Opportunities** | Kesempatan untuk memimpin dalam perusahaan: `Yes`/`No`.                                           |
+        | **Innovation Opportunities** | Kesempatan untuk berinovasi dalam perusahaan: `Yes`/`No`.                                           |
+        | **Company Reputation**   | Reputasi perusahaan di mata karyawan: `Excellent`, `Good`, `Fair`, `Poor`.                             |
+        | **Employee Recognition** | Penghargaan yang diberikan kepada karyawan atas pencapaian mereka: `Very High`, `High`, `Medium`, `Low`. |
+        | **Attrition**            | Status apakah karyawan tetap bertahan atau mengundurkan diri: `Yes`/`No`.                              |
+    """, unsafe_allow_html=True)
 
     st.markdown("---")
 
